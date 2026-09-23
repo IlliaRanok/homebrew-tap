@@ -14,8 +14,6 @@ cask "media-downloader" do
     end
   end
 
-  depends_on macos: ">= :catalina"
-
   app "Media_Downloader.app"
 
   zap trash: [
